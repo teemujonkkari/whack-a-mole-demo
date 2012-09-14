@@ -1,0 +1,89 @@
+/*! part of normalize.css v1.0.1 | MIT License | git.io/normalize */
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block}
+[hidden]{display:none}
+html{font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
+body{margin:0}
+img{border:0;-ms-interpolation-mode:bicubic}
+figure{margin:0}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+body {
+  background: #fff;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+}
+
+.main {
+  width: 1024px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.dirt {
+  z-index: -1;
+  width: 1024px;
+  height: 768px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(../img/background/dirt.png) repeat;
+}
+
+.grass-upper {
+  width: 1024px;
+  height: 384px;
+  position: relative;
+  background: url(../img/foreground/grass_upper.png) no-repeat;
+}
+
+.grass-lower {
+  z-index: 1;
+  width: 1024px;
+  height: 384px;
+  position: relative;
+  background: url(../img/foreground/grass_lower.png) no-repeat;
+}
+
+.mole {
+  width: 178px;
+  height: 200px;
+  position: absolute;
+  top: 430px; /* 240px */
+}
+
+.mole-1 {
+  left:110px;
+}
+
+.mole-2 {
+  left:425px;
+}
+
+.mole-3 {
+  left:730px;
+}
